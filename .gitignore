@@ -9,6 +9,7 @@
 *.tfstate
 *.tfstate.*
 *.pem*
+*.sh*
 
 # Crash log files
 crash.log

@@ -17,7 +17,6 @@ resource "aws_instance" "app_server" {
   ami           = "ami-830c94e3"
   instance_type = "t2.micro"
   key_name = "dsm-estudos"
-  user_data = file("userdata.sh")
   tags = {
     Name = "TesteAWSDSM"
   }
